@@ -14,7 +14,7 @@ export interface Image {
   url: string;
 }
 
-export interface Billboard {
+export interface BillboardType {
   id: string;
   label: string;
   imageUrl: string;
@@ -23,7 +23,7 @@ export interface Billboard {
 export interface Category {
   id: string;
   name: string;
-  billboard: Billboard;
+  billboard: BillboardType;
 };
 
 export interface Size {
